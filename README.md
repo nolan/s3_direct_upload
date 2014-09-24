@@ -1,3 +1,16 @@
+# Fork details
+
+The following pull requests have been merged:
+
+```
+git pull https://github.com/waynehoover/s3_direct_upload +refs/pull/162/head
+git pull https://github.com/waynehoover/s3_direct_upload +refs/pull/170/head
+git pull https://github.com/waynehoover/s3_direct_upload +refs/pull/174/head
+git pull https://github.com/waynehoover/s3_direct_upload +refs/pull/176/head
+git pull https://github.com/waynehoover/s3_direct_upload +refs/pull/165/head
+```
+
+
 # S3DirectUpload
 
 [![Build Status](https://travis-ci.org/waynehoover/s3_direct_upload.png)](https://travis-ci.org/waynehoover/s3_direct_upload)
