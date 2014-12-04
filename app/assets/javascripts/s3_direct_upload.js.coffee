@@ -24,6 +24,7 @@ $.fn.S3Uploader = (options) ->
     click_submit_target: null
     allow_multiple_files: true
     prepend_files: null
+    drop_zone: $(document)
 
   $.extend settings, options
 
@@ -136,6 +137,8 @@ $.fn.S3Uploader = (options) ->
         unless 'FormData' of window
           $uploadForm.find("input[name='key']").val(settings.path + key)
         data
+
+      dropZone: settings.drop_zone
 
   build_content_object = ($uploadForm, file, result) ->
     content = {}
